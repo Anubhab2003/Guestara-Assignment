@@ -39,9 +39,10 @@ const Footer = () => {
               ></path>
             </svg>
           </button>
-          <button className="w-152 h-26 bg-transparent hover:bg-gray-200 text-white font-semibold py-2 px-4 border border-gray-300 rounded-full hover:text-[#253849]">
+          <button type="button" className="w-152 h-26 bg-transparent hover:bg-gray-200 text-white font-semibold py-2 px-4 border border-gray-300 rounded-full hover:text-[#253849]" onclick="window.location.href='https://demo.mobiscroll.com/javascript/timeline/month-view#Lang=en-GB&themeVariant=dark'">
             GO BACK TO DEMOS
           </button>
+
         </div>
       </footer>
     </>

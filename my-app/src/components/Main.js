@@ -1,4 +1,6 @@
 import React from "react";
+import DraggableButton from './DraggableButton'; // Replace with the correct path
+
 
 const Main = () => {
   return (
@@ -111,9 +113,7 @@ const Main = () => {
               {/* Resource A */}
               <div className="flex items-center py-4 border">
                 <div className="w-24">Resource A</div>
-                <div className="bg-yellow-200 w-48 h-8 border rounded-sm">
-                  Event 9:00-10:00 am
-                </div>
+                <DraggableButton />
               </div>
               {/* Resource B */}
               <div className="flex items-center py-4 border">
@@ -121,6 +121,11 @@ const Main = () => {
               </div>
               <div className="flex items-center py-4 border">
                 <div className="w-24">Resource C</div>
+                {/* <div className="bg-blue-200 w-48 h-8 border rounded-sm">
+                  Event 9:00-10:00 am
+                </div> */}
+                <DraggableButton />
+
               </div>
               <div className="flex items-center py-4 border">
                 <div className="w-24">Resource D</div>
